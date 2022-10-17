@@ -3,7 +3,7 @@ package circle;
 public class Main {
     public static void main(String[] args) {
 
-        Circle.area(26,15,13);
-        Circle.circumference2(26,15);
+        System.out.println(Circle.area(15));
+        System.out.println(Circle.circumference2(15));
     }
 }
